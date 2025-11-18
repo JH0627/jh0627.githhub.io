@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Band</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: #0e0e0e;
+            color: #f1f1f1;
+        }
+
+        /* Header */
+        header {
+            background: #000 url('https://via.placeholder.com/1600x500?text=Rock+Band') center/cover no-repeat;
+            padding: 150px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            text-shadow: 3px 3px 8px #000;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Navigation */
+        nav {
+            background: #111;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: #f1f1f1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Sections */
+        section {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        /* Tour List */
+        .tour-date {
+            background: #1a1a1a;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 5px solid #e63946;
+        }
+
+        /* Gallery */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .gallery img {
+            width: 32%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background: #000;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            .gallery img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ThunderStrike</h1>
+    <p>Pure Rock • Pure Energy</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#music">Music</a>
+    <a href="#tour">Tour</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About the Band</h2>
+    <p>
+        ThunderStrike is a hard-hitting rock band formed in 2014.
+        With explosive guitars, roaring vocals, and unforgettable live shows,
+        they continue to reshape the modern rock scene.
+    </p>
+</section>
+
+<section id="music">
+    <h2>Music</h2>
+    <p>Check out our latest single:</p>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+        title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<section id="tour">
+    <h2>Upcoming Tour Dates</h2>
+
+    <div class="tour-date">
+        <strong>July 12, 2025</strong> — London, UK — DarkFire Arena
+    </div>
+    <div class="tour-date">
+        <strong>July 20, 2025</strong> — Berlin, Germany — Thunder Dome
+    </div>
+    <div class="tour-date">
+        <strong>August 3, 2025</strong> — Tokyo, Japan — Skyhall Live
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/400x300?text=Live+1" alt="">
+        <img src="https://via.placeholder.com/400x300?text=Live+2" alt="">
+        <img src="https://via.placeholder.com/400x300?text=Live+3" alt="">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>For booking and management:</p>
+    <p><strong>contact@thunderstrikeband.com</strong></p>
+</section>
+
+<footer>
+    © 2025 ThunderStrike Band — All Rights Reserved
+</footer>
+
+</body>
+</html>
